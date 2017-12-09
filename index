@@ -40,6 +40,12 @@
     <input type="text" id"password"><br>
     <button type="button" onclick="login()">Login</button>
     <p id="error" class="hide>Access Denied!</p>
+    <div id="tabs">
+      <button class="tab" on click="goToPage('home')">Home</button>
+      <button class="tab" on click="goToPage('about')">About</button>
+      <button class="tab" on click="goToPage('voting')">Voting</button>
+      <button class="tab" on click="goToPage('profile')">Profile</button>
+</div>
 </body>
 </html>
 
